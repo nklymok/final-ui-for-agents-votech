@@ -28,7 +28,7 @@ class MovieOutput(BaseModel):
 cinema_schedule_agent = Agent(
     name="Cinema Schedule Agent",
     handoff_description="A specialist that knows cinema schedules and can recommend movies.",
-    instructions="You should be able to tell the user the schedule of a movie. You can recommend movies. Today is 15042025. The price from cinema_schedule_tool 15000 means 150 UAH 00 kop.",
+    instructions="You should be able to tell the user the schedule of a movie. You can recommend movies. Today is 22052025. The price from cinema_schedule_tool 15000 means 150 UAH 00 kop.",
     tools=[cinema_schedule_tool]
 )
 
